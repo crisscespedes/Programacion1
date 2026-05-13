@@ -9,31 +9,34 @@ int main()
 
     if (n==1)
     {
-        cout<<"Lunes";
+        cout<<"Lunes"<<endl;
     }
-    if (n==2)
-    {   
-        cout<<"Martes";
-    }
-    if(n==3)
+    else if (n==2)
     {
-        cout<<"Miercoles";
+        cout<<"Martes"<<endl;
     }
-    if (n==4)
+    else if (n==3)
     {
-        cout<<"Jueves";
+        cout<<"Miercoles"<<endl;
     }
-    if (n==5)
+    else if (n==4)
     {
-        cout<<"Viernes";
+        cout<<"Jueves"<<endl;
     }
-    if (n==6)
+    else if(n==5)
     {
-       cout<<"Sabado";
-    }
-    if (n==7)
+        cout<<"Viernes"<<endl;
+    } 
+    else if (n==6)
     {
-        cout<<"Domingo";
+        cout<<"Sabado"<<endl;
     }
-    return 0;
+    else if (n==7)
+    {
+        cout<<"Domingo"<<endl;
+    }
+    else
+    {
+        cout<<"Numero invalido"<<endl;
+    }
 }
