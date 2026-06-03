@@ -3,11 +3,11 @@ using namespace std;
 
 int main()
 {
-    char vocal;
+    char letra;
     cout<<"Ingrese la calificacion (letra, entre la A a la F):\n";
-    cin>>vocal;
+    cin>>letra;
 
-    switch (vocal)
+    switch (letra)
     {
     case 'a':
     case 'A':
