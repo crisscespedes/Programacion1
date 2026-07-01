@@ -3,11 +3,11 @@ using namespace std;
 
 int main()
 {   
-    int d;
+    int cara;
     cout<<"Ingrese el numero para saber la cara opuesta del dado(1-6):\n";
-    cin>>d;
+    cin>>cara;
 
-    switch (d)
+    switch (cara)
     {
     case 1:
         cout<<"6";
